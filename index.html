@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Details</title>
+  <link rel="stylesheet" href="poke.css">
+</head>
+<body>
+  
+  <div class="container">
+    <input id="fetchpoke" placeholder="Enter Character ">
+  <button onclick="fetchPokemonDetails()" >FETCH</button>
+  
+  <div id="pokedetails" style ="visibility: hidden;" >
+      <div id="card">
+      <img id="pokemon-image" src="" alt="Pokemon Image" ><br>
+      <button id="rotatebtn">🔁</button>
+      <h2 id="pokemon-name"></h2>
+      <div id="details">
+      <p id="pokemon-type"></p>
+      <p id="pokemon-height"></p>
+      <p id="pokemon-weight"></p>
+       </div>
+  </div> 
+    
+</div> 
+  </div>
+
+  <script src="poke.js"></script>
+</body>
+</html>
